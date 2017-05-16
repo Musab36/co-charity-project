@@ -1,8 +1,8 @@
 .top {
-  width: 1270px;
-  height: 150px;
+  width: 1450px;
+  height: 165px;
   background-color: white;
-  margin-top: 0px;
+  margin-top: -50px;
   margin-left: -60px;
   margin-bottom: 10px;
 }
@@ -17,7 +17,8 @@
 }
 
 .icons {
-  margin-left: 300px;
+  margin-left: 370px;
+  margin-top: 10px;
 }
 
 .icon:hover {
@@ -25,7 +26,7 @@
   background-color: black;
 }
 
-. #story {
+#story {
   display: none;
 }
 
@@ -47,7 +48,7 @@
 
 }
 .new{
-  color: black;
+  color: white;
   font-size: 150px;
 }
 #bottomdiv{
@@ -121,37 +122,13 @@
   background-color: white;
   margin-top: 10px;
 }
-h1 {
+#pov {
   color: white ! important;
   text-align: center;
 }
-
-.loader {
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid blue;
-  border-right: 16px solid green;
-  border-bottom: 16px solid red;
-  border-left: 16px solid pink;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-  display: none;
-}
-
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
 .bt {
   margin-top: -05px;
- margin-left: 798px;
+ margin-left: 870px;
  margin-bottom: -100px;
 }
 .donate{
@@ -253,9 +230,11 @@ margin-bottom: 40px;
   border: 5px solid blue;
   width: 400px;
   margin-left: 350px;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 .input {
   color: black;
   background-color: transparent;
+}
+#cocha {
 }
