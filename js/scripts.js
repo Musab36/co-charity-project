@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $("#btn1").click(function() {
-    $("#nw1").show(5000);
-    $("#all").hide(600);
+    $("#nw1").show(3000);
+    $("#all").hide();
     $("#img2").hide();
     $("#img3").hide();
     $("#img4").hide();
@@ -10,7 +10,7 @@ $(document).ready(function() {
   });
 
   $("#btn2").click(function() {
-    $("#nw2").show(5000);
+    $("#nw2").show(3000);
     $("#all").hide();
     $("#img1").hide();
     $("#img3").hide();
@@ -20,7 +20,7 @@ $(document).ready(function() {
   });
 
   $("#btn3").click(function() {
-    $("#nw3").show(1000);
+    $("#nw3").show(3000);
     $("#all").hide();
     $("#img1").hide();
     $("#img2").hide();
@@ -30,7 +30,7 @@ $(document).ready(function() {
   });
 
   $("#btn4").click(function() {
-    $("#nw4").show();
+    $("#nw4").show(3000);
     $("#all").hide();
     $("#img2").hide();
     $("#img3").hide();
@@ -40,7 +40,7 @@ $(document).ready(function() {
   });
 
   $("#btn5").click(function() {
-    $("#nw5").show();
+    $("#nw5").show(3000);
     $("#all").hide();
     $("#img1").hide();
     $("#img2").hide();
@@ -50,7 +50,7 @@ $(document).ready(function() {
   });
 
   $("#btn6").click(function() {
-    $("#nw6").show();
+    $("#nw6").show(3000);
     $("#all").hide();
     $("#img1").hide();
     $("#img2").hide();

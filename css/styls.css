@@ -34,7 +34,7 @@
 }
 
 .intro {
-  background-image: url(poverty.jpg);
+  background-image: url(bg.jpg);
   background-size: cover;
   height: 500px;
   padding-top: 60px;
@@ -51,7 +51,7 @@
   font-size: 150px;
 }
 #bottomdiv{
-  background-color:rgb(165, 18, 62);
+  background-color: #333;
   height: 1000px;
   margin-left: -110px;
   margin-right: -110px;
@@ -125,6 +125,7 @@ h1 {
   color: white ! important;
   text-align: center;
 }
+
 .loader {
   border: 16px solid #f3f3f3;
   border-radius: 50%;
