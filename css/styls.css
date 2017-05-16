@@ -1,9 +1,10 @@
 .top {
   width: 1270px;
   height: 150px;
-  background-color: white;
+  background-color:transparent;
   margin-top: 0px;
   margin-left: -60px;
+  margin-bottom: 10px;
 }
 
 .navs {
@@ -33,7 +34,7 @@
 }
 
 .intro {
-  background-image: url(poverty.jpg);
+  background-image: url(home.jpg);
   background-size: cover;
   height: 500px;
   padding-top: 60px;
@@ -46,12 +47,145 @@
 
 }
 .new{
-  color: black;
+  color:white;
   font-size: 150px;
 }
+.bt{
+  margin-top: -05px;
+  margin-left: 798px;
+  margin-bottom: -100px;
+}
+.donate{
+display: inline-block;
+padding: 15px 25px;
+font-size: 24px;
+cursor: grabbing;
+text-align: center;
+text-decoration: none;
+outline: none;
+color:white;
+background-color:orange;
+border: none;
+border-radius:5px;
+margin-bottom: 40px;
+}
+
+.donate:hover {background-color:darkorange;}
+.donate:active{
+    transform: translateY(4px);
+}
+
 #bottomdiv{
   background-color:rgb(165, 18, 62);
   height: 500px;
   margin-left: -100px;
   margin-right: -110px;
+}
+.join{
+  background-image: url(poverty.jpg);
+  background-size: cover;
+  margin-left: -100px;
+  margin-right: -100px;
+  height: 500px;
+  margin-top: 0px;
+  color:white;
+  padding-top: 0px;
+}
+#email{
+  margin-left: 600px;
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  height: 50px;
+  width: 200px;
+}
+#first-name{
+  margin-left: 200px;
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  height: 50px;
+  width: 200px;
+}
+#last-name{
+  margin-left: 400px;
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  height: 50px;
+  width: 200px;
+}
+
+.move {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: grabbing;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:white;
+  background-color:orange;
+  border: none;
+  border-radius: 15px;
+  margin-left: 900px;
+}
+
+.move:hover {background-color:green;}
+
+.move:active {
+  background-color: ;
+  box-shadow: 0 5px ;
+  transform: translateY(4px);
+}
+p2{
+  margin-left: 700px;
+  font-weight: bolder;
+  font-size: 40px;
+  color: orange;
+}
+p{
+  padding-left: 400px;
+  color:white;
+  font-weight: bolder;
+  font-family: sans-serif;
+  font-style: oblique;
+  font-size: 30px;
+}
+.social{
+  height: 200px;
+  background-color:white;
+  margin-left: -100px;
+  margin-right:-100px;
+}
+.images{
+  margin-left: 500px;
+  padding-top: 100px;
+
+
+}
+p1{
+  color: blue;
+  font-weight: bolder;
+  font-size: 30px;
+}
+#login{
+font-weight: bolder;
+font-size: 40px;
+color:blue;
+margin-left: 100px;
+}
+.text1{
+  margin-left:-100px;
+  padding-top: 70px;
+}
+.image1{
+  padding-bottom: 20px;
+}
+.text2{
+  margin-left: 10px;
+  padding-top: 70px;
+}
+.text3{
+  padding-top: 70px;
+}
+.text4{
+  padding-top: 70px;
 }
