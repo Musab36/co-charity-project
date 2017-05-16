@@ -12,6 +12,7 @@
 
   <body>
     <div class="container-fluid">
+      <div class="loader"></div>
       <div class="col-md-12">
         <div class="container-fluid">
           <div class="col-md-12">
@@ -25,9 +26,14 @@
                     <strong><h1>O-CHARITY</h1></strong>
                   </div>
                 </div>
+
+                <div class="bt">
+                  <button class="donate">Donate</span></button>
+                </div>
+
                 <div class="icons">
                   <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">HOME</a></li>
+                    <li class="active" id="hom"><a href="#">HOME</a></li>
                     <li><a href="#">STORIES</a></li>
                     <li><a href="#">SUCCESS-STORIES</a></li>
                     <li><a href="#">ABOUT</a></li>
@@ -61,7 +67,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="cnt">
       <div id="bottomdiv">
         <h1>News of poverty across Africa!</h1>
         <div class="row">
@@ -179,6 +185,97 @@
 
       </div>
     </div>
+
+    <div class="container">
+      <form id="don" style="display:none; color:black;background-image: url(help.jpeg);background-size:cover;">
+        <h1>Your donation</h1>
+        <br>
+        <h2>How would you like to donate?</h2>
+
+        <button class="button" id="onet"><span>One time donation</span></button>
+
+        <button class="button" id="options"><span>Regular donations</span></button>
+        <select id="select">
+<option>Monthly
+<option>Yearly
+</select>
+        <br>
+
+        <div id="amn">
+          <h2>How much will you like to donate?</h2>
+          <br>
+          <input type="text" id="amnt" size="30" class="input">
+          <br>
+          <button class="button" id="next1"><span>Next</span></button>
+        </div>
+
+        <div id="meth">
+          <h2>How would you like to make your donation?</h2>
+          <br>
+          <div class="row">
+            <img src="card.jpg" title="Card" id="card"><img src="pp.png" title="PayPal" id="paypal"><img src="mpe.jpg" title="Mpesa" id="mpesa">
+            <br>
+          </div>
+
+          <div id="cardmeth">
+            <h2>Payment method details</h2>
+            <br>
+            <h2>Card Details</h2> Card type <input type="radio">Visa<input type="radio">Mastercard<br><input type="radio">Diners<input type="radio">American Express
+            <br>
+            <br> Card number <input type="text" size="30" class="input">
+            <br>
+            <br> Expiry date <input type="text" value="MM" size="2" class="input">/<input type="text" value="YY" size="2" class="input">CVV<input type="text" size="4" class="input">
+            <br>
+            <br> Name on card<input type="text" size="30" class="input">
+            <br>
+            <br>
+          </div>
+
+          <button class="button" id="next2"><span>Next</span></button>
+
+          <div id="paypmeth">
+            <h2>PayPal Details</h2>
+            <br>
+            <p>To make your donations through PayPal:<br> Use our PayPal Email: co-charity@gmail.com</p>
+            <br>
+            <br>
+          </div>
+          <button class="button" id="next3"><span>Next</span></button>
+
+          <div id="mpemeth">
+            <h2>Mpesa Details</h2>
+            <br>
+            <p>To make your payments through Mpesa:<br> Use our Till Number: 50367</p>
+            <br>
+            <br>
+          </div>
+        </div>
+
+        <button class="button" id="next4"><span>Next</span></button>
+
+        <div id="ydts">
+          <h2>Your Details</h2>
+          <br> First name<br><input type="text" size="30" class="input">
+          <br> Last name<br><input type="text" size="30" class="input">
+          <br> Email address<br><input type="text" size="30" class="input">
+          <br> Phone number<br><input type="text" size="30" class="input">
+          <br> Postcode
+          <br><input type="text" size="30" class="input">
+          <br>
+          <br>
+          <button class="button" id="donate"><span>Donate</span></button>
+        </div>
+      </form>
+
+      <div id="sucdon">
+        <p>Donation successful!! Thanks a lot for your kindness!!<br> GOD BLESS YOU!!</p>
+      </div>
+
+    </div>
   </body>
+
+</html>
+
+</body>
 
 </html>

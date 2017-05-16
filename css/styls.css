@@ -4,6 +4,7 @@
   background-color: white;
   margin-top: 0px;
   margin-left: -60px;
+  margin-bottom: 10px;
 }
 
 .navs {
@@ -51,7 +52,7 @@
 }
 #bottomdiv{
   background-color:rgb(165, 18, 62);
-  height: 900px;
+  height: 1000px;
   margin-left: -110px;
   margin-right: -110px;
 }
@@ -67,26 +68,38 @@
 #nw1 {
   display: none;
   color: white;
+  margin-left: 50px;
+  width: 1000px;
 }
 #nw2 {
   display: none;
   color: white;
+  margin-left: 50px;
+  width: 1000px;
 }
 #nw3 {
   display: none;
   color: white;
+  margin-left: 50px;
+  width: 1000px;
 }
 #nw4 {
   display: none;
   color: white;
+  margin-left: 50px;
+  width: 1000px;
 }
 #nw5 {
   display: none;
   color: white;
+  margin-left: 50px;
+  width: 1000px;
 }
 #nw6 {
   display: none;
   color: white;
+  margin-left: 50px;
+  width: 1000px;
 }
 .paro2 {
   width: 375px;
@@ -111,4 +124,137 @@
 h1 {
   color: white ! important;
   text-align: center;
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  display: none;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.bt {
+  margin-top: -05px;
+ margin-left: 798px;
+ margin-bottom: -100px;
+}
+.donate{
+display: inline-block;
+padding: 15px 25px;
+font-size: 24px;
+cursor: grabbing;
+text-align: center;
+text-decoration: none;
+outline: none;
+color:white;
+background-color:orange;
+border: none;
+border-radius:5px;
+margin-bottom: 40px;
+}
+
+.donate:hover {background-color:darkorange;}
+.donate:active{
+   transform: translateY(4px);
+}
+.button {
+  border-radius: 4px;
+  background-color: red;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}.button:hover span {
+  padding-right: 25px;
+}
+#select {
+  width: 250px;
+  height: 40px;
+  display: none;
+}
+#amn {
+  display: none;
+}
+#meth {
+  display: none;
+}
+#cardmeth {
+  display: none;
+}
+#paypmeth {
+  display: none;
+}
+#mpemeth {
+  display: none;
+}
+#ydts {
+  display: none;
+}
+#next1 {
+  display: none;
+}
+#next2 {
+  display: none;
+}
+#next3 {
+  display: none;
+}
+#next4 {
+  display: none;
+}
+#sucdon {
+  display: none;
+  text-align: center;
+  color: white;
+  background-color: darkblue;
+  border: 5px solid blue;
+  width: 400px;
+  margin-left: 350px;
+  margin-top: 100px;
+}
+.input {
+  color: black;
+  background-color: transparent;
 }
