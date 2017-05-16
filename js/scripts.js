@@ -1,20 +1,61 @@
 $(document).ready(function() {
-        $("#blanks form").submit(function(event) {
-          var person1Input = $("input#person1").val();
-          var person2Input = $("input#person2").val();
-          var animalInput= $("input#animal").val();
-          var exclamationInput = $("input#exclamation").val();
-          var verbInput = $("input#verb").val();
-          var nounInput = $("input#noun").val();
-          $(".person1").append(person1Input);
-          $(".person2").append(person2Input);
-          $(".animal").append(animalInput);
-          $(".exclamation").append(exclamationInput);
-          $(".verb").append(verbInput);
-          $(".noun").append(nounInput);
+  $("#btn1").click(function() {
+    $("#nw1").show(5000);
+    $("#all").hide(600);
+    $("#img2").hide();
+    $("#img3").hide();
+    $("#img4").hide();
+    $("#img5").hide();
+    $("img6").hide();
+  });
 
-          $("#story").show();
+  $("#btn2").click(function() {
+    $("#nw2").show(5000);
+    $("#all").hide();
+    $("#img1").hide();
+    $("#img3").hide();
+    $("#img4").hide();
+    $("#img5").hide();
+    $("img6").hide();
+  });
 
-          event.preventDefault();
-        });
-      });
+  $("#btn3").click(function() {
+    $("#nw3").show(1000);
+    $("#all").hide();
+    $("#img1").hide();
+    $("#img2").hide();
+    $("#img4").hide();
+    $("#img5").hide();
+    $("img6").hide();
+  });
+
+  $("#btn4").click(function() {
+    $("#nw4").show();
+    $("#all").hide();
+    $("#img2").hide();
+    $("#img3").hide();
+    $("#img1").hide();
+    $("#img5").hide();
+    $("img6").hide();
+  });
+
+  $("#btn5").click(function() {
+    $("#nw5").show();
+    $("#all").hide();
+    $("#img1").hide();
+    $("#img2").hide();
+    $("#img3").hide();
+    $("#img4").hide();
+    $("img6").hide();
+  });
+
+  $("#btn6").click(function() {
+    $("#nw6").show();
+    $("#all").hide();
+    $("#img1").hide();
+    $("#img2").hide();
+    $("#img3").hide();
+    $("#img4").hide();
+    $("#img5").hide();
+  });
+});
