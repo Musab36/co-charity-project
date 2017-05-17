@@ -1,6 +1,6 @@
 .top {
   width: 1450px;
-  height: 165px;
+  height: 160px;
   background-color: white;
   margin-top: -50px;
   margin-left: -60px;
@@ -237,4 +237,73 @@ margin-bottom: 40px;
   background-color: transparent;
 }
 #cocha {
+}
+#story1 {
+  margin-top: 120px;
+  margin-left: 300px;
+}
+#imgstory1 {
+height: 550px;
+border: 9px solid #E7DAD5;
+}
+
+#story2 {
+  margin-top: 180px;
+  margin-left: 30px;
+  width: 200px;
+}
+#imgstory2 {
+  margin-top: 170px;
+  border: 9px solid #E7DAD5;
+}
+#story3 {
+  margin-top: 180px;
+  margin-left: 300px;
+}
+#imgstory3 {
+  margin-top: 190px;
+  border: 9px solid #E7DAD5;
+}
+#story4 {
+  margin-top: 170px;
+  margin-left: 30px;
+  width: 200px;
+}
+#imgstory4 {
+  margin-top: 170px;
+  border: 9px solid #E7DAD5;
+}
+#story5 {
+  margin-top: 170px;
+  margin-left: 300px;
+}
+#imgstory5 {
+  margin-top: 170px;
+  border: 9px solid #E7DAD5;
+}
+#story6 {
+  margin-top: 170px;
+  margin-left: 30px;
+  width: 250px;
+}
+#imgstory6 {
+  margin-top: 170px;
+  border: 9px solid #E7DAD5;
+}
+#story7 {
+  margin-top: 170px;
+  margin-left: 300px;
+}
+#imgstory7 {
+  margin-top: 170px;
+  border: 9px solid #E7DAD5;
+}
+#support2 {
+  margin-left: 300px;
+}
+#support4 {
+  margin-left: 300px;
+}
+#support6 {
+  margin-left: 300px;
 }

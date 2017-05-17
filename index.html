@@ -5,7 +5,7 @@
     <link href="css/styls.css" rel="stylesheet">
     <link href="css/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/project.js"></script>
     <link rel="icon" type="image/png" href="logo.jpg">
     <title>CO-charity</title>
   </head>
@@ -17,7 +17,7 @@
           <div class="navs">
             <div class="udaku">
               <div class="navbar-header">
-                <a class="navbar-brand" href="#"> <img src="logo.jpg" alt="" style="width:150px;  height:110px;margin-top:30px;"></a>
+                <a class="navbar-brand" href="#"> <img src="logo.jpg" alt="" style="width:150px;  height:110px;margin-bottom:-10px;"></a>
               </div>
               <div class="co">
                 <strong><h1 id="cocha">O-CHARITY</h1></strong>
@@ -31,7 +31,7 @@
             <div class="icons">
               <ul class="nav navbar-nav">
                 <li class="active" id="hom"><a href="#">HOME</a></li>
-                <li><a href="#">STORIES</a></li>
+                <li id="stories"><a href="#">STORIES</a></li>
                 <li><a href="#">SUCCESS-STORIES</a></li>
                 <li><a href="#">ABOUT</a></li>
                 <li><a href="#">CONTACT</a></li>
@@ -84,7 +84,7 @@
 
           <div id="img3">
             <div class="col-md-4">
-              <img src="news3.jpg" alt="" style="width:400px;margin-top:40px;margin-left:15px;">
+              <img src="news3.jpg" alt="" style="width:400px;margin-top:50px;margin-left:15px;">
               <p class="paro3">The president of the World Bank has warned he will name and shame countries that fail to tackle the malnourishment and poor growth of their children, as part of a mission to rid the world of stunting</p>
               <button class="btn btn-primary" id="btn3" style="margin-left:315px;margin-top:-70px;height:28px;">See more</button>
             </div>
@@ -182,7 +182,7 @@
     </div>
 
     <div class="container">
-      <form id="don" style="display:none; color:black;background-image:url(help.jpeg);background-size:cover;margin-top:50px;">
+      <form id="don" style="display:none; color:black;background-image:url(thanks.jpg);background-size:cover;margin-top:50px;">
         <h1>Your donation</h1>
         <br>
         <h2>How would you like to donate?</h2>
@@ -267,10 +267,107 @@
       </div>
 
     </div>
+
+    <div class="container" style="display:none;" id="stocon">
+      <div class="row">
+        <div class="col-md-6">
+          <p id="story1">First Name: Kennie<br> Date of Birth: Aug 10, 1995<br> Gender: M<br> Name of Mother: Fatu Alieu<br> Name of Father: Alieu<br> Number of Sisters: 1<br> Number of Brothers: 1<br> Duties at Home: Sweeping, fetching water, washing dishes <br>Favorite
+            Subject at School: Mathematics
+            <br>Favorite Activity or Game: Football <br>Favorite Color: Yellow<br> Public Comments: Kennie lives with his relatives in Nairobi city. His father is a subsistence farmer and his mother is a petty trader. Their income is not sufficient to
+            take care of him. Kennie aspires to be a lawyer, and he has just finished primary school. Your support will help Kennie realize his dream. Others at Home: 15 aunts, cousins, etc.<br>Location: Nairobi-Kenya.</p>
+          <button class="btn btn-primary" id="support">Suppoort</button>
+        </div>
+        <div class="col-md-6">
+          <img src="story1.gif" alt="" id="imgstory1">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="story2.gif" alt="" id="imgstory2">
+        </div>
+        <div class="col-md-6">
+          <p id="story2">First Name: michael <br>Date of Birth: Jun 11, 2005<br> Gender: M<br> Name of Mother: Aminata Bangura<br> Name of Father: Anthony Bangura <br>Duties at Home: fetching water and help in minor domestic<br> Favorite Subject at School: mathematics
+            <br>Favorite Activity or Game: football<br> Favorite Color: blue<br> Public Comments: michael lives with his parents and sibling (two brothers and sisters)in an isolated community.the father is an apprentice carpenter.the mother is unemployed.the
+            family merely survived on the little tips the father earn at the end of every working day.michael want to be an architect. Others at Home: father,mother,brothers and sister <br>Location: Nairobi-Kenya.</p>
+          <button class="btn btn-primary" id="support2">Suppoort</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <p id="story3">First Name: Mariama <br>Date of Birth: Apr 18, 2001 <br>Gender: F <br>Name of Mother: Therissa Alieu <br>Name of Father: James Alieu<br> Number of Sisters: 2 <br>Duties at Home: wash dishes and fetch water <br>Favorite Subject at School: English
+            Language
+            <br> Favorite Activity or Game: balance ball<br> Favorite Color: green <br>Public Comments: Mariama's father is a civil servant and the main provider of the home with a monthly income of $150. This is not enough to cover the basic family needs.
+            Her mother is a teacher and helps her husband in providing for the home. They live in a single bedroom apartment with no running water and no electricity. Mariama would like to be banker when she grows up.She assists her mother to cook when
+            have less school work. Her health status is good. Others at Home: none<br> Location: Mombasa-Kenya.
+          </p>
+          <button class="btn btn-primary" id="support3">Suppoort</button>
+        </div>
+        <div class="col-md-6">
+          <img src="story3.jpg" alt="" id="imgstory3">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="story4.gif" alt="" id="imgstory4">
+        </div>
+        <div class="col-md-6">
+          <p id="story4">First Name: Shieka<br> Date of Birth: Apr 25, 1999<br> Gender: M<br> Name of Mother: Hawa Sandy<br> Name of Father: Alusine Bangura<br> Number of Brothers: 1<br> Duties at Home: wash dishes and fetch water <br>Favorite Subject at School: Economics<br>            Favorite Activity or Game: football<br> Favorite Color: Blue<br> Public Comments: Shieka's mother is a nurse in training and is the main provider of the home with no definite income. Sheika doesn't know his father, because his father left
+            home when he was very little.Shieka wants to be a doctor when he grows up. He is a talented football player. He is full of humor. He does light errands for people in his community to help raise money for lunch. His health is good. Others at
+            Home: an aunt <br>Location: Nakuru-Kenya.
+          </p>
+          <button class="btn btn-primary" id="support4">Suppoort</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <p id="story5">First Name: Isata <br>Date of Birth: Apr 19, 2004<br> Gender: F<br> Name of Mother: Aminata Thorley<br> Name of Father: Mohamed Bangura<br> Number of Sisters: 3<br> Number of Brothers: 5<br> Duties at Home: wash dishes and sweeps<br> Favorite
+            Subject at School: English Language Favorite Activity or Game: balance ball<br> Favorite Color: Brown<br> Public Comments: The father is a petty trader that sells rummage and is the main provider of the home with monthly income of $60 not
+            enough to cover the basic needs of the home.The mother is also a petty trader that sells rummage and uses proceeds she gets from her business to help support the home.They live in four bedroom apartment with no running water but with electricity.Isata
+            wants to be a nurse when she grows.She is also a member of the girls guardHer health is good. Others at Home: ten dependent relatives <br>Location: Nairobi-Kenya.
+          </p>
+          <button class="btn btn-primary" id="support5">Suppoort</button>
+        </div>
+        <div class="col-md-6">
+          <img src="story5.gif" alt="" id="imgstory5">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="story6.gif" alt="" id="imgstory6">
+        </div>
+        <div class="col-md-6">
+          <p id="story6">First Name: Foday <br>Date of Birth: Dec 14, 1996<br> Gender: M<br> Name of Mother: Adama Turay<br> Name of Father: Alpha Bangura<br> Number of Sisters: 2<br> Number of Brothers: 2<br> Duties at Home: Wash dishes, sweeps, and fetch water.<br>            Favorite Subject at School: Mathematics and Science<br> Favorite Activity or Game: Football<br> Favorite Color: Red<br> Public Comments: His father is a driver and the main provider of the home. His monthly income of $70 is not enough to cover
+            the basic needs of the home.The mother is a petty trader that sells vegetables.They live in a two bedroom apartment with no running water or electricity.The house they are living in has a very poor toilet facility.Foday wants to be a lawyer
+            when he grows up.He is a pupil of the Evangelical Mission primary school.He sells food when he is not in school to help provide for the home.He is in good health. Others at Home: None<br> Location: Nairobi-Kenya.
+          </p>
+          <button class="btn btn-primary" id="support6">Suppoort</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <p id="story7">First Name: Marie<br> Date of Birth: Apr 10, 1999<br> Gender: F<br> Name of Mother: Isatu Bangura<br> Name of Father: Kapril Bangura<br> Number of Sisters: 3<br> Number of Brothers: 1<br> Duties at Home: wash dishes,sells leafy vegetable and
+            launders <br>Favorite Subject at School: Social Studies<br> Favorite Activity or Game: football<br> Favorite Color: Blue<br> Public Comments: The mother is a gardener and the sole provider of the home with monthly income of $40 not enough
+            to cover the basic needs of the home.The father Kapril died five month ago.They live in a single bedroom zinc sheet apartment with no running water and electricity. Others at Home: two aunties and a cousin <br>Location: Eldoret-Kenya.
+          </p>
+          <button class="btn btn-primary" id="support7">Suppoort</button>
+        </div>
+        <div class="col-md-6">
+          <img src="story7.gif" alt="" id="imgstory7">
+        </div>
+      </div>
+    </div>
   </body>
 
 </html>
 
 </body>
+
+</html>
+
 
 </html>
