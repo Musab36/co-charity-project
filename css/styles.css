@@ -69,3 +69,104 @@ p{
   margin-left: 300px;
   margin-bottom: 300px;
 }
+
+.donate{
+  margin-top: 12px;
+  background-color: gold;
+}
+
+#don{
+  text-align: center;
+  color: #e04e10;
+}
+
+#sucdon, #amn, #meth, #ydts, #select, #next2, #next4{
+  display: none;
+}
+
+#sucdon {
+  text-align: center;
+  color: white;
+  background-color: darkblue;
+  border: 5px solid blue;
+  width: 400px;
+  margin-left: 350px;
+  margin-top: 200px;
+}
+
+#onet, #options{
+  background-color: maroon;
+  color: cyan;
+  height: 50px;
+  width: 200px;
+}
+
+#story1, #story2, #story3, #story4, #story5, #story6, #story7{
+  margin-top: 10px;
+}
+
+#imgstory1, #imgstory2, #imgstory3, #imgstory4, #imgstory5, #imgstory6, #imgstory7{
+  border: 9px solid #E7DAD5;
+  height: 400px;
+  width: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#support{
+  margin-bottom: 25px;
+}
+
+#bton1, #bton2, #bton3, #bton4, #bton5, #bton6{
+  display: none;
+}
+
+#nw1, #nw2, #nw3, #nw4, #nw5, #nw6{
+  display: none;
+}
+
+.news1, .news2, .news3, .news4, .news5, .news6{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.paro, .paro2, .paro3{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#pov{
+  color: white;
+  text-align: center;
+}
+
+.all-stories{
+  color: #0af4d7;
+}
+
+.interview{
+  text-align: center;
+}
+
+.text1, .text2, .text3, .text4{
+  margin-bottom: 75px;
+}
+
+.about, #us{
+  margin-top: 100px;
+  text-align: center;
+  color: #cb7741;
+}
+
+.ours, .copyright{
+  margin-top: 300px;
+}
+
+.more{
+  margin-top: 10px;
+}
+
+#us, .intro{
+  background-size:cover;
+  background-image: url();
+}
