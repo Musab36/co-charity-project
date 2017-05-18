@@ -1,6 +1,6 @@
 .top {
   width: 1450px;
-  height: 160px;
+  height: 175px;
   background-color: white;
   margin-top: -50px;
   margin-left: -60px;
@@ -70,37 +70,37 @@
   display: none;
   color: white;
   margin-left: 50px;
-  width: 1000px;
+  width: 380px;
 }
 #nw2 {
   display: none;
   color: white;
   margin-left: 50px;
-  width: 1000px;
+  width: 380px;
 }
 #nw3 {
   display: none;
   color: white;
   margin-left: 50px;
-  width: 1000px;
+  width: 380px;
 }
 #nw4 {
   display: none;
   color: white;
   margin-left: 50px;
-  width: 1000px;
+  width: 380px;
 }
 #nw5 {
   display: none;
   color: white;
   margin-left: 50px;
-  width: 1000px;
+  width: 380px;
 }
 #nw6 {
   display: none;
   color: white;
   margin-left: 50px;
-  width: 1000px;
+  width: 380px;
 }
 .paro2 {
   width: 375px;
@@ -298,12 +298,50 @@ border: 9px solid #E7DAD5;
   margin-top: 170px;
   border: 9px solid #E7DAD5;
 }
-#support2 {
+#support1 {
   margin-left: 300px;
+    border-radius: 8px;
+}
+#support2 {
+  margin-left: 100px;
+    border-radius: 8px;
+}
+#support3 {
+  margin-left: 300px;
+    border-radius: 8px;
 }
 #support4 {
+  margin-left: 100px;
+    border-radius: 8px;
+}
+#support5 {
   margin-left: 300px;
+    border-radius: 8px;
 }
 #support6 {
+  margin-left: 100px;
+  border-radius: 8px;
+    border-radius: 8px;
+}
+#support7 {
   margin-left: 300px;
+    border-radius: 8px;
+  }
+#bton6 {
+  display: none;
+}
+#bton5 {
+  display: none;
+}
+#bton4 {
+  display: none;
+}
+#bton3 {
+  display: none;
+}
+#bton2 {
+  display: none;
+}
+#bton1 {
+  display: none;
 }
