@@ -2,7 +2,7 @@ body{
   background-color: black;
 }
 
-p{
+p, p2{
   color: silver;
   font-size: 18px;
 }
@@ -169,4 +169,41 @@ p{
 #us, .intro{
   background-size:cover;
   background-image: url();
+}
+
+.welcome{
+  display: none;
+  font-size: 40px;
+  color: blue;
+  margin-left: 350px;
+  padding-top: 200px;
+  font-weight: bolder;
+  font-stretch: ultra-expanded;
+}
+ .move{
+   height: 50px;
+   width: 200px;
+   margin-top: 30px;
+ }
+
+.social{
+  background-color: #bf6a1c;
+  margin-right: -20px;
+}
+
+.join{
+  color: orange;
+  background-image: url(../img/co.jpg);
+  background-size: cover;
+  height: 400px;
+}
+
+#first-name, #last-name, #email{
+  background-color: transparent;
+  width: 300px;
+  margin-top: 30px;
+}
+
+.p-joiner{
+  color: orange;
 }

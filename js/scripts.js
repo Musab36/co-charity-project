@@ -1,4 +1,10 @@
 $(document).ready(function() {
+  //JOIN BUTTON
+  $(".move").click(function(){
+    $(".all").hide();
+     $(".welcome").show(3000);
+  });
+  
   //NEWS
   $("#btn1").click(function() {
     event.preventDefault();
