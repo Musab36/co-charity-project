@@ -1,0 +1,71 @@
+body{
+  background-color: black;
+}
+
+p{
+  color: silver;
+  font-size: 18px;
+}
+
+.brand-image{
+  height: 50px;
+  width: 50px;
+}
+
+.menu-list{
+  margin-top: 20px;
+}
+
+.navbar-pos{
+  margin-top: 15px
+}
+
+.intro{
+  padding-top: 100px;
+  background-image: url(../img/poverty.jpg);
+  background-size: cover;
+  height: 650px;
+}
+
+.africa{
+  font-size: 150px;
+  color: #e60022;
+}
+
+.speaks{
+  font-size: 100px;
+  color: #04ad1f;
+}
+
+.story1, .story2, .story3, .story4, .story5{
+  background-color: #4c494d;
+  opacity: 1;
+}
+
+.story-images{
+  border-radius: 25%;
+  height: 200px;
+  width: 160px;
+  margin-left: 20px;
+}
+
+.contacts{
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.contacts-p{
+  text-align: center;
+  font-size: 45px;
+}
+
+.kenya{
+  height: 500px;
+  width: 500px;
+  margin-top: 75px;
+  margin-left: 300px;
+  margin-bottom: 300px;
+}
